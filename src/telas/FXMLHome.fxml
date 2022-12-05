@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="351.0" prefWidth="678.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+    <stylesheets>
+        <URL value="@/css/fxmlhome.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="155.0" layoutY="100.0" prefHeight="400.0" prefWidth="152.0" style="-fx-background-color: #35363a;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane layoutX="8.0" layoutY="18.0" prefHeight="2.0" prefWidth="137.0" style="-fx-background-color: #202124;" />
+            <Button fx:id="btnProduto" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="28.0" layoutY="44.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="97.0" style="-fx-background-color: linear-gradient(to bottom,#3e9eff  0,#007fff 100%);" styleClass="btnProduto" stylesheets="@../css/fxmlhome.css" text="Produtos" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnCliente" alignment="CENTER_RIGHT" layoutX="28.0" layoutY="116.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="97.0" style="-fx-background-color: linear-gradient(to bottom,#6c6 0,#40bf40 100%);" styleClass="btnCliente" stylesheets="@../css/fxmlhome.css" text="Clientes" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnVenda" alignment="CENTER_RIGHT" layoutX="28.0" layoutY="183.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="97.0" style="-fx-background-color: linear-gradient(to bottom,#ff5722 0,#d93400 100%);" styleClass="btnVenda" stylesheets="@../css/fxmlhome.css" text="Vendas" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPanePrincipal" layoutX="152.0" layoutY="100.0" prefHeight="301.0" prefWidth="448.0" styleClass="anchorPanePrincipal" stylesheets="@../css/fxmlhome.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="152.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

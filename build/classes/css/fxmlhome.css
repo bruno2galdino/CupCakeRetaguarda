@@ -1,0 +1,36 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.btnProduto{
+    /*-fx-background-color: #FFD966;*/
+    -fx-background-image: url("../assets/icones/produto.png");
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;    
+}
+
+.btnCliente{
+    /*-fx-background-color: #FFD966;*/
+    -fx-background-image: url("../assets/icones/cliente.png");
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;    
+}
+
+.btnVenda{
+    /*-fx-background-color: #FFD966;*/
+    -fx-background-image: url("../assets/icones/vendas.png");
+    -fx-background-size: 30px 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left center;    
+}
+
+.anchorPanePrincipal{
+    -fx-background-image: url("../assets/imagens/background.png");
+    -fx-background-size: contain;
+}

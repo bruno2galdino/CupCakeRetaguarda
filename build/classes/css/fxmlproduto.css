@@ -1,0 +1,19 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+.anchorPaneTable{
+    -fx-border-base: #a1a1a1;
+    -fx-border-shadow: #fff5d7;
+    -fx-light-border: derive(-fx-border-base, 10%);
+    -fx-border-color: -fx-light-border -fx-border-base -fx-border-base -fx-light-border;
+    -fx-border-insets: 0 1 1 0;
+    -fx-background-color: -fx-border-shadow,  linear-gradient(to bottom,#fff 0,#fff5d7 100%);
+
+    -fx-background-insets: 1 0 0 1, 2;
+    -fx-padding: 2;
+}
