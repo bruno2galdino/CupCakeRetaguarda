@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>src/controllers/HomeController.java</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/model/dao/ProdutosDAO.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/conexao/Chernobyl.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/css/fxmlhome.css</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/start/Main.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/css/fxmlproduto.css</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/model/bean/Produtos.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/CupCakeRetaguarda/src/controllers/ProdutoController.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
